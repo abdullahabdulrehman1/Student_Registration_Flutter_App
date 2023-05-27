@@ -14,7 +14,7 @@ class _StudentsPageState extends State<StudentsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Students Registration"), ),
-      body: SafeArea(child: Center(child: Text("Studentspage"),)),
+      body: SafeArea(child: Column(children: [Text("Studentspage"),])),
     );
   }
 }
